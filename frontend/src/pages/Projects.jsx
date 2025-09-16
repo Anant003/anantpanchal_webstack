@@ -38,6 +38,10 @@ export default function Projects() {
             <h3>Toggle Switch</h3>
             <Link to="/toggleSwitch">click here</Link>
           </div>
+          <div className="card">
+            <h3>Star Wars Characters</h3>
+            <Link to="/starwars">click here</Link>
+          </div>
         </div>
       </Provider>
     </div>

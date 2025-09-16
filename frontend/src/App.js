@@ -10,6 +10,7 @@ import CounterWithuseEffect from "./components/CounterWithuseEffect.jsx";
 import Parent from "./components/PassingPropsFromChildtoParent.jsx";
 // import DisplayDataUsingAPI from "./components/DisplayingDataFromAPI.jsx";
 import ToggleSwitch from "./components/ToggleSwitch.jsx";
+import Starwars from "./pages/starwars/Starwars.jsx";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/passingPropsFromChildtoParent" element={<Parent />} />
         {/* <Route path="/displayDataFromAPI" element={<DisplayDataUsingAPI />} /> */}
         <Route path="/toggleSwitch" element={<ToggleSwitch />} />
+        <Route path="/starwars" element={<Starwars />} />
       </Routes>
     </Router>
   );
