@@ -42,6 +42,10 @@ export default function Projects() {
             <h3>Star Wars Characters</h3>
             <Link to="/starwars">click here</Link>
           </div>
+          <div className="card">
+            <h3>Product List Using Multiple UI</h3>
+            <Link to="/productList">click here</Link>
+          </div>
         </div>
       </Provider>
     </div>
