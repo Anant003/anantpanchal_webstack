@@ -8,9 +8,9 @@ import Navbar from "./components/navbar.jsx";
 import Counter from "./components/Counter.jsx";
 import CounterWithuseEffect from "./components/CounterWithuseEffect.jsx";
 import Parent from "./components/PassingPropsFromChildtoParent.jsx";
-// import DisplayDataUsingAPI from "./components/DisplayingDataFromAPI.jsx";
 import ToggleSwitch from "./components/ToggleSwitch.jsx";
 import Starwars from "./pages/starwars/Starwars.jsx";
+import ProductList from "./pages/productList/ProductList.jsx";
 
 function App() {
   return (
@@ -24,9 +24,9 @@ function App() {
         <Route path="/counter" element={<Counter />} />
         <Route path="/counterWithuseEffect" element={<CounterWithuseEffect />} />
         <Route path="/passingPropsFromChildtoParent" element={<Parent />} />
-        {/* <Route path="/displayDataFromAPI" element={<DisplayDataUsingAPI />} /> */}
         <Route path="/toggleSwitch" element={<ToggleSwitch />} />
         <Route path="/starwars" element={<Starwars />} />
+        <Route path="/productList" element={<ProductList />} />
       </Routes>
     </Router>
   );
