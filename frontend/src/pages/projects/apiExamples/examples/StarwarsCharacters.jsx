@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const Starwars = () => {
+const StarwarsCharacters = () => {
   const [characters, setcharacters] = useState([]);
 
   useEffect(() => {
@@ -62,4 +62,4 @@ const Starwars = () => {
   );
 };
 
-export default Starwars;
+export default StarwarsCharacters;
