@@ -10,7 +10,7 @@ import ExampleDataTableView from "../pages/projects/apiExamples/ExampleDataTable
 import ProductList from "../pages/productList/ProductList";
 import StarwarsCharacters from "../pages/projects/apiExamples/examples/StarwarsCharacters";
 import ReactChallengesView from "../pages/projects/react-challenges/ReactChallengesView";
-import AccessibilityComponentsView from "../pages/projects/accessibilityComponents/AccessibilityComponentsView";
+import AccessibilityComponentsView from "../pages/projects/accessibility-components/AccessibilityComponentsView";
 
 export const routes = [
   { path: "/about", element: <About /> },
