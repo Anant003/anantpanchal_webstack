@@ -12,6 +12,7 @@ import StarwarsCharacters from "../pages/projects/apiExamples/examples/StarwarsC
 import ReactChallengesView from "../pages/projects/react-challenges/ReactChallengesView";
 import AccessibilityComponentsView from "../pages/projects/accessibility-components/AccessibilityComponentsView";
 import ProductLisitingPageWithAsc from "../pages/projects/apiExamples/examples/ProductLisitingPageWithAsc";
+import PokemonDropdown from "../pages/projects/apiExamples/examples/PokemonDropdown";
 
 export const routes = [
   { path: "/about", element: <About /> },
@@ -31,6 +32,10 @@ export const routes = [
   {
     path: "/apiExampleView/Product-Listing-Page",
     element: <ProductLisitingPageWithAsc />,
+  },
+  {
+    path: "/apiExampleView/Pokemon-Dropdown",
+    element: <PokemonDropdown />,
   },
   { path: "/projects/react-challenges", element: <ReactChallengesView /> },
   {
