@@ -1,6 +1,7 @@
 import { ReactComponent as ApiIcon } from "../assets/api-svgrepo-com.svg";
 import { ReactComponent as ReactIcon } from "../assets/react-svgrepo-com.svg";
 import { ReactComponent as AccessibilityIcon } from "../assets/accessibility-svgrepo-com.svg";
+import { ReactComponent as EcommerceIcon } from "../assets/ecommerce-online-shopping-svgrepo-com.svg";
 
 export const cardData = [
   {
@@ -27,4 +28,12 @@ export const cardData = [
     link: "/projects/accessibility-components",
     icon: <AccessibilityIcon width={80} height={80} />,
   },
+  {
+    id: 4,
+    title: "Ecommerce View",
+    description:
+      "Explore various ecommerce related projects and examples.",
+    link: "/projects/ecommerce-view",
+    icon: <EcommerceIcon width={80} height={80} />,
+  }
 ];

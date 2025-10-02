@@ -13,6 +13,7 @@ import ReactChallengesView from "../pages/projects/react-challenges/ReactChallen
 import AccessibilityComponentsView from "../pages/projects/accessibility-components/AccessibilityComponentsView";
 import ProductLisitingPageWithAsc from "../pages/projects/apiExamples/examples/ProductLisitingPageWithAsc";
 import PokemonDropdown from "../pages/projects/apiExamples/examples/PokemonDropdown";
+import EcommerceView from "../pages/projects/ecommerce/EcommerceView";
 
 export const routes = [
   { path: "/about", element: <About /> },
@@ -42,4 +43,7 @@ export const routes = [
     path: "/projects/accessibility-components",
     element: <AccessibilityComponentsView />,
   },
+  {
+    path: "/projects/ecommerce-view", element: <EcommerceView />
+  }
 ];
